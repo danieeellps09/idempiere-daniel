@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.mom.process.MoMDurationTime"
+         name="com.mom.process.MoMDurationTime"
+         point="org.adempiere.base.Process">
+      <process
+            class="com.mom.process.MoMDurationTime"
+            priority="com.mom.process.MoMDurationTime">
+      </process>
+   </extension>
+
+</plugin>

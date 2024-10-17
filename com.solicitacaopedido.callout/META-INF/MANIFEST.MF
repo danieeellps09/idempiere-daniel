@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Callout
+Bundle-SymbolicName: com.solicitacaopedido.callout;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.adempiere.base;bundle-version="12.0.0",
+ org.adempiere.plugin.utils;bundle-version="12.0.0"
+Automatic-Module-Name: package.com.solicitacaopedido.callout
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Eclipse-RegisterBuddy: org.adempiere.base
+

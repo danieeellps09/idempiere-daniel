@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Process
+Bundle-SymbolicName: com.mom.process;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: com.mom.models;bundle-version="1.0.0",
+ org.adempiere.base;bundle-version="12.0.0",
+ org.adempiere.plugin.utils;bundle-version="12.0.0",
+ org.adempiere.base.process;bundle-version="12.0.0"
+Bundle-Vendor: MOM
+Automatic-Module-Name: com.mom.process
+Bundle-RequiredExecutionEnvironment: JavaSE-17

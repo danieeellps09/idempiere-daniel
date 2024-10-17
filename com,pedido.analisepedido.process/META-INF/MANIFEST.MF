@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Process
+Bundle-SymbolicName: com_pedido.analisepedido.process;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.adempiere.base;bundle-version="12.0.0",
+ org.adempiere.base.process;bundle-version="12.0.0",
+ org.adempiere.plugin.utils;bundle-version="12.0.0"
+Bundle-Vendor: PEDIDO
+Automatic-Module-Name: com.pedido.analisepedido.process
+Bundle-RequiredExecutionEnvironment: JavaSE-17

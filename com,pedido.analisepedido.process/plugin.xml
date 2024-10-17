@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.pedido.analisepedido.process.FiltroPedidos"
+         name="com.pedido.analisepedido.process.FiltroPedidos"
+         point="org.adempiere.base.Process">
+      <process
+            class="com.pedido.analisepedido.process.FiltroPedidos"
+            priority="com.pedido.analisepedido.process.FiltroPedidos">
+      </process>
+   </extension>
+
+</plugin>
